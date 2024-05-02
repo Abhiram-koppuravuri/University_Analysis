@@ -11,6 +11,10 @@ This project utilizes a Kaggle dataset featuring a fictional university (https:/
 ## 1. Department wise analysis
 This page has the following,
 Two slicers according to department and year for the charts,
+
+![Screenshot 2024-05-02 190641](https://github.com/Abhiram-koppuravuri/University_Analysis/assets/121746477/5f4f7f7c-9003-4af8-9816-a2ff2017c161)
+
+
 ## a) Department choice applied and Got
 This Donut chart shows count and percentage of people who got or not got their preferred department.
   I have created a calcualted column based on below DAX code for the chart
@@ -36,6 +40,10 @@ This chart is interactable with slicers for department and year.
 
 ## 2. Semester-focused Insights
  Have 2 slicers, semester name and department.
+
+ ![Screenshot 2024-05-02 190720](https://github.com/Abhiram-koppuravuri/University_Analysis/assets/121746477/638d07fe-f979-47a6-b9c6-09c5e08a9767)
+ 
+
 ## a) Overall Percentage by Student:
 A stacked column chart representing the overall percentage of students in a specific semester and department, calculated by the following DAX code:
 
@@ -84,6 +92,10 @@ A card showcasing the total number of students in a department based on slicer s
 An interactive widget allowing users to ask for specific analyses from the data.
 ## 3. Student-level Insights
 It has 2 slicers,department name and student id (this slicer changes according to department chosen)
+
+![Screenshot 2024-05-02 190733](https://github.com/Abhiram-koppuravuri/University_Analysis/assets/121746477/2030082a-8884-4e04-94cc-33462db4dce0)
+
+
 ## a) Overall Percentage by Semester:
 Line chart that shows the student level performance over semesters based on above slicers.
 ## Limitations in the dataset
