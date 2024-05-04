@@ -3,6 +3,8 @@
 
 This project utilizes a Kaggle dataset featuring a fictional university (https://www.kaggle.com/datasets/ananta/student-performance-dataset) to generate insightful Power BI visualizations. It includes department-wise analysis, semester-wise breakdowns, and student-level insights with interactive slicers.
 
+# Data model
+![Screenshot 2024-05-04 001034](https://github.com/Abhiram-koppuravuri/University_Analysis/assets/121746477/9f79be20-a962-4a2a-b15b-d39ec03b0112)
 
 
 ## Description of Charts in each page
