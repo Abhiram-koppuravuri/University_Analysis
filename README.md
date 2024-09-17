@@ -4,7 +4,8 @@
 This project utilizes a Kaggle dataset featuring a fictional university (https://www.kaggle.com/datasets/ananta/student-performance-dataset) to generate insightful Power BI visualizations. It includes department-wise analysis, semester-wise breakdowns, and student-level insights with interactive slicers.
 
 # Data model
-![Screenshot 2024-05-04 001034](https://github.com/Abhiram-koppuravuri/University_Analysis/assets/121746477/9f79be20-a962-4a2a-b15b-d39ec03b0112)
+![Screenshot 2024-09-17 223717](https://github.com/user-attachments/assets/88fe59c1-b31d-40aa-a9a8-3d5a3a30731a)
+
 
 
 ## Description of Charts in each page
@@ -14,19 +15,16 @@ This project utilizes a Kaggle dataset featuring a fictional university (https:/
 This page has the following,
 Two slicers according to department and year for the charts,
 
-![Screenshot 2024-05-02 190641](https://github.com/Abhiram-koppuravuri/University_Analysis/assets/121746477/5f4f7f7c-9003-4af8-9816-a2ff2017c161)
+
+![Screenshot 2024-09-17 224023](https://github.com/user-attachments/assets/312d43f7-0d9c-4362-b1bc-3749feb439d7)
 
 
-## a) Department choice applied and Got
-This Donut chart shows count and percentage of people who got or not got their preferred department.
-  I have created a calcualted column based on below DAX code for the chart
 
-    Choice = IF([Department_Choices] = [Department_Admission], "Yes", "No")
-## b) Student Count by Department:
+## a) Student Count by Department:
 A pie chart visualizing the distribution of students across departments, interactable via slicers.
-## c) Student Count by Date of Admission and Department:
+## b) Student Count by Date of Admission and Department:
 A stacked bar chart showcasing student counts by date of admission and department, interactable via slicers.
-## d) Average Marks by Department and Semester:
+## c) Average Marks by Department and Semester:
 A line chart displaying the average marks of departments across semesters. The average marks by department are calculated using the following measure:
 
 
